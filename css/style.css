@@ -1,0 +1,750 @@
+body {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%), url(../img/background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar .container {
+    width: 77%;
+    margin-top: -25px;
+}
+
+.logo {
+    width: 190px;
+}
+
+.vh-73 {
+    height: 73vh;
+}
+
+.btn-danger {
+    background-color: rgb(227, 18, 33);
+}
+
+.btn-danger:hover {
+    background-color: rgb(191, 21, 33);
+}
+
+.headerContent h1 {
+    font-size: 47px;
+    font-weight: 900;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+.tvPlay h2,
+.offlinePlay h2,
+.everywherePlay h2,
+.kidsProfile h2,
+.faq h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.offlinePlay .picture {
+    order: 1;
+}
+
+.offlinePlay .content {
+    order: 2;
+}
+
+.kidsProfile .picture {
+    order: 1;
+}
+
+.kidsProfile .content {
+    order: 2;
+}
+
+.accordion-button,
+.accordion-item {
+    background-color: rgb(45, 45, 45);
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(45, 45, 45);
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+
+.accordion-button:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.accordion-button::after {
+    background-image: url(../img/plus-50.png);
+    background-position: center;
+    background-size: 36px;
+    background-repeat: no-repeat;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/multiply-50.png);
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.accordion-body {
+    background-color: rgb(45, 45, 45);
+}
+
+footer .container {
+    width: 77%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a,
+.slogan {
+    font-size: 14px;
+}
+
+.neos-nav {
+    color: #e50a13;
+    transition: 0.37s;
+}
+
+.neos-nav:hover {
+    color: white;
+}
+
+/*! Browse Page */
+.browse {
+    background-color: rgb(20, 20, 20);
+}
+
+.browse h1 {
+    font-size: 50px;
+}
+
+.card {
+    width: 9rem;
+}
+
+.browse i {
+    font-size: 142px;
+}
+
+.browse a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.browse img:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    color: white !important;
+    border: 3px solid white !important;
+}
+
+.browse i:hover {
+    cursor: pointer;
+    color: white !important;
+}
+
+.browse a:hover {
+    color: white !important;
+}
+
+.profile a:hover {
+    color: white;
+}
+
+/*! Login Page */
+.loginHeader {
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%), url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginLogo {
+    width: 96%;
+    margin-top: -10px;
+}
+
+.loginLogo img {
+    width: 210px;
+}
+
+.loginArea {
+    width: 450px;
+    height: 650px;
+}
+
+.form-text {
+    margin-top: -18px;
+}
+
+.loginEmail {
+    font-size: 12px;
+}
+
+.loginPass {
+    font-size: 12px;
+}
+
+.border-login,
+.text-login {
+    border-color: rgb(230, 124, 33) !important;
+}
+
+.text-login {
+    color: rgb(230, 124, 33) !important;
+}
+
+.border-login:focus {
+    box-shadow: none;
+}
+
+.loginButton {
+    font-size: 16px;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border-color: rgb(98, 98, 98);
+}
+
+.form-check-input:checked {
+    background-color: rgb(98, 98, 98);
+    border-color: rgb(98, 98, 98);
+}
+
+.loginButtonBottom {
+    font-size: 13px;
+}
+
+.loginButtonBottom a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.loginButtonBottom a:hover {
+    color: rgb(138, 138, 138);
+    text-decoration: underline !important;
+}
+
+.registerLink {
+    font-size: 14px;
+}
+
+.registerLink a {
+    text-decoration: none;
+}
+
+.registerLink a:hover {
+    text-decoration: underline !important;
+}
+
+.loginHeader hr {
+    display: none;
+}
+
+.loginFooter ul a {
+    text-decoration: none;
+    color: gray;
+}
+
+.loginFooter ul a:hover {
+    text-decoration: underline
+}
+
+/*! Your Account Page */
+
+.accounPageBody {
+    background-color: #f2f2f2;
+}
+
+.headerAccountPage, .headerFilmsPage {
+    height: 70px;
+    background-color: #080808;
+    padding: 0px 45px;
+}
+
+.logoAccountPage {
+    width: 150px;
+    /* float: left; */
+}
+
+.menuProfilAvatar {
+    width: 160px;
+}
+
+.menuProfilAvatarSub {
+    width: 35px;
+}
+
+.menuItemAccountPage li {
+    padding: 10px 0;
+}
+
+.menuItemAccountPage a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuItemAccountPage a:hover {
+    text-decoration: underline;
+}
+
+.menuItemAccountPage {
+    font-size: 12px;
+}
+
+.mainAccountPage {
+    width: 70%;
+    margin: 105px auto 70px !important; /* 200px left-right */
+}
+
+.mainAccountPage h1 {
+    font-weight: 300;
+    font-size: 36px !important;
+}
+
+.mainAccountPage h6 {
+    font-weight: 700;
+    font-size: 12px !important;
+    color: #555555;
+}
+.mainAccountPage i {
+    color: #e50a13;
+    font-size: 22px;
+}
+
+.mainAccountPage h2 {
+    font-weight: 400;
+    font-size: 18px !important;
+    color: #757575;
+}
+
+.iptalBtn {
+    border: none;
+    border-radius: 2px;
+    background-color: #e1e1e1;
+    color: black;
+    font-size: 13px;
+    width: 190px;
+    padding: 10px 0;
+}
+
+.textMuted {
+    color: #737373;
+}
+
+.leftContent p, .rightContent p {
+    margin:0 0 0.4rem 0;
+    font-size: 15px;
+}
+
+.rightContent {
+    text-align: end;
+}
+
+.rightContent a {
+    text-decoration: none;
+    color: #0173e6;
+    font-weight: 300;
+}
+
+.rightContent a:hover {
+    text-decoration: underline;
+}
+
+.mainAccountPage .hd {
+    color: black;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.mainAccountPage .badge {
+    background-color: #0f84fa;
+    width: 2.9rem;
+    font-size: 11px;
+    margin-top: -3px;
+}
+
+footer {
+    width: 100%;
+}
+
+footer .row {
+    width: 92%;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-weight: 400;
+    font-size: 18px !important;
+    color: #757575;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px !important;
+    color: #757575;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #757575;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer li a {
+    font-size: 13px !important;
+}
+
+footer button {
+    width: 110px !important;
+    font-size: 13px !important;
+    color: #757575; 
+    border: 1px solid #757575;
+    padding: 7px 0;
+}
+
+/*! Films Page */
+.filmsPageBody {
+    background-color: #141414;
+    color: white;
+}
+
+.filmsPage {
+    /* width: 91%; */
+    /* margin: 30px auto 70px !important; */
+}
+
+.filmsPageTopMenu {
+    /* display:inline-flex !important; */
+    list-style: none;
+}
+
+.filmsPageTopMenu li, .navbarRightKids {
+    font-size: 14px;
+}
+
+.filmsPageTopMenu a {
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+}
+
+.filmsPageTopMenu .active {
+    color: white !important;
+    font-weight: 600;
+}
+
+.filmsPageTopMenu a:hover {
+    color: #aaaaaa !important;
+    cursor: pointer;
+}
+
+.logoFilmsPage {
+    width: 120px;
+}
+
+.menuItemFilmsPage {
+    font-size: 12px;
+}
+
+.menuFilmsPage button img {
+    width: 35px;
+}
+
+.menuProfilAvatarSub {
+    width: 35px;
+}
+
+.mobile li {
+    padding: 10px 0;
+}
+
+.menuItemFilmsPage a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuItemFilmsPage a:hover {
+    text-decoration: underline;
+}
+
+.mobile a:hover {
+    text-decoration: none;
+}
+
+.filmsPageTurlerMenu button {
+    border: 1px solid white !important;
+    font-size: 14px;
+}
+
+.turler li {
+    padding: 8px 15px;
+}
+
+.onerilerLabel {
+    font-size: 11px;
+}
+
+.oneriler li {
+    padding: 1px 10px;
+    font-size: 10px;
+}
+
+@media screen and (max-width:995px) {
+    /*! Film Page */
+    .filmsPageTopMenu{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:959px) {
+    .headerContent h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .headerContent h4,
+    h5 {
+        font-size: 20px;
+    }
+
+    .vh-73 {
+        height: 60vh;
+    }
+
+    .tvPlay h2,
+    .offlinePlay h2,
+    .everywherePlay h2,
+    .kidsProfile h2,
+    .faq h2 {
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .tvPlay h4,
+    .offlinePlay h4,
+    .everywherePlay h4,
+    .kidsProfile h4,
+    .faq h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .offlinePlay .content {
+        order: 1;
+    }
+
+    .offlinePlay .picture {
+        order: 2;
+    }
+
+    .kidsProfile .content {
+        order: 1;
+    }
+
+    .kidsProfile .picture {
+        order: 2;
+    }
+
+    .btmUyelikMsg h5 {
+        font-size: 18px;
+    }
+
+    .faq span {
+        font-size: 18px;
+    }
+
+    footer .container {
+        margin-top: -20px;
+    }
+
+    /*! Browse Page*/
+    .card {
+        width: 8rem;
+    }
+
+    .browse i {
+        font-size: 126px;
+    }
+    /*! Your Account Page */
+    .headerAccountPage {
+        padding: 0px 15px;
+    }
+    .mainAccountPage {
+        width: 90%;
+    }
+    .uyelikOdeme {
+        display: block;
+        width: 100%;
+    }
+    .hesapBilgileri {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar .container {
+        width: 95%;
+        margin-top: 0px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .dropdown {
+        padding-right: -15px !important;
+    }
+
+    /*! Login Page*/
+    .loginHeader {
+        background-image: none;
+        height: 80vh;
+    }
+
+    .loginLogo {
+        margin-top: 0px;
+        width: 110px;
+    }
+
+    .loginArea {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .loginFooter {
+        width: 100%;
+        margin: auto;
+    }
+
+    .loginFooter .container {
+        width: 92%;
+        margin: auto;
+    }
+
+    .loginFooter .row {
+        display: block;
+    }
+
+    .loginHeader hr {
+        display: block;
+        margin-bottom: -60px;
+    }
+    /*! Your Account Page */
+
+    /*! Films Page */
+    .onerilerMenu {
+        display: none !important;
+    }
+    
+}
+
+@media screen and (max-width:599px) {
+    .headerContent .input-group {
+        display: block;
+    }
+
+    .headerContent .uyelikInputText {
+        width: 100%;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .faq .input-group {
+        display: block;
+    }
+
+    .faq .uyelikInputText {
+        width: 100%;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .faq .uyelikButton {
+        margin-left: 35% !important;
+    }
+
+    .header {
+        height: 75vh;
+    }
+
+    /*! Browse Page*/
+    .card {
+        width: 7rem;
+    }
+
+    .browse h1 {
+        font-size: 40px;
+    }
+
+    .browse h5 {
+        font-size: 18px;
+    }
+
+    .browse i {
+        font-size: 112px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .langDropdown {
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .navbar .container {
+        width: 95%;
+        margin-top: 0px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    /*! Browse Page*/
+    .card {
+        width: 5rem;
+    }
+
+    .browse h1 {
+        font-size: 35px;
+    }
+
+    .browse h5 {
+        font-size: 10px;
+    }
+
+    .browse i {
+        font-size: 80px;
+    }
+}
